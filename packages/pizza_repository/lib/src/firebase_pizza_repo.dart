@@ -4,7 +4,6 @@ import 'dart:typed_data';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:pizza_repository/pizza_repository.dart';
-import 'dart:html' as html;
 
 class FirebasePizzaRepo implements PizzaRepo {
   final pizzaCollection = FirebaseFirestore.instance.collection('pizzas');
